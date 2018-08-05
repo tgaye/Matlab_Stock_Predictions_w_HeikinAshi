@@ -11,4 +11,6 @@ The core of this trading strategy is momentumn based "swing trading", using new 
 Achieves a sharpe ratio of 1.4575, APR of 14.68%; however commissions are not considered to keep the example simple.  (average trade 
 duration is 3 days round trip, so this isn't too egregious.)  Nonetheless this is still more proof of concept and curiosity than live-ready code.
 
+Cumulative Returns: ![heikinashireturns](https://user-images.githubusercontent.com/34739163/43686465-96bd4510-9883-11e8-89ac-7109c1d40b06.jpg)
+
 
