@@ -155,11 +155,16 @@ meanavglength = mean(avgLengthx) %#ok<*NOPTS>
 portfolio = zeros(rows(cl),1);
 for u=1:rows(cl)
     %Use cumret of all 52 stocks as a makeshift portfolio
-    portfolio(u,1) = mean(cumretx(u,1:end));
+    portfolio(u,1) = mean(cumretx(u,1:end)) + 1;
 end
 
 %Check results
 plot(portfolio);
+title('Cumulative returns of portfolio, 52 stocks.')
+xlabel('Time: days')
+ylabel('Portfolio Value')
+
+
 
 
     
